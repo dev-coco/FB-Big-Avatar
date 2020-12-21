@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "FB Big Avatar",
+    "description": "放大Facebook的头像，方便加好友。",
+    "author": "dev-coco",
+    "version": "1.0",
+    "browser_action": {
+      "default_icon": "icon.png"
+    },
+    "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "background" : {
+        "scripts" : ["background.js"],
+        "persistent" : false
+    },
+    "permissions": [
+      "https://www.facebook.com/*"
+    ]
+}
