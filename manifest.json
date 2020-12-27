@@ -1,9 +1,9 @@
 {
     "manifest_version": 2,
     "name": "Facebook头像放大",
-    "description": "鼠标放在Facebook的头像上，可以放大头像。",
+    "description": "点击插件后，鼠标放在Facebook的头像上，可以放大头像。",
     "author": "dev-coco",
-    "version": "1.0",
+    "version": "1.1",
     "browser_action": {
       "default_icon": "icon.png"
     },
