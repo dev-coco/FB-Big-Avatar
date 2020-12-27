@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
-    "name": "FB Big Avatar",
-    "description": "放大Facebook的头像，方便加好友。",
+    "name": "Facebook头像放大",
+    "description": "鼠标放在Facebook的头像上，可以放大头像。",
     "author": "dev-coco",
     "version": "1.0",
     "browser_action": {
@@ -17,6 +17,6 @@
         "persistent" : false
     },
     "permissions": [
-      "https://www.facebook.com/*"
+      "https://*.facebook.com/*","https://*.messenger.com/*"
     ]
 }
